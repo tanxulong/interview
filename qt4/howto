@@ -1,0 +1,12 @@
+qmake -project
+qmake
+make
+
+
+if the qt4 installation directory is not a part of the PATH
+	variable, we can provide the full path to the 
+	qmake tool:
+
+	/usr/local/qt4/bin/qmake -project
+	/usr/local/qt4/bin/qmake
+	make
